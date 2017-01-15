@@ -1,8 +1,8 @@
-package finalExam;
+
 
 import java.util.*;
 
-public class örnek2 {
+public class Ã¶rnek2 {
 
 	public static void main(String[] args) {
 		Random rn = new Random();
