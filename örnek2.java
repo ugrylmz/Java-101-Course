@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class örnek2 {
+public class ornek2 {
 
 	public static void main(String[] args) {
 		Random rn = new Random();
