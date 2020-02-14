@@ -1,2 +1,2 @@
 # Ugur-YILMAZ
-Java Basic Calculator 
+Java Basic Calculator and find Odd Even Numbers 
