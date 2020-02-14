@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class hesapmakinası {
+public class hesapmakinasÃ½ {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
@@ -19,7 +19,7 @@ public class hesapmakinası {
 			showresult(sonuc);//System.out.println(sonuc);
 			break;
 			case 2:  
-				System.out.println("!!ilk gireceğiniz sayı taban ,\n ikincisi üs!!!");
+				System.out.println("!!ilk gireceÃ°iniz sayÃ½ taban ,\n ikincisi Ã¼s!!!");
 				sayi1 = Sayial();
 				sayi2 = Sayial();
 				sonuc = pow(sayi1,sayi2);
@@ -49,24 +49,24 @@ public class hesapmakinası {
 			}
 
 		} while (secim!=6);
-		System.out.println("hesap mak. kullandığınız için teşekkürler\n");
-		System.out.println("çıktın");
+		System.out.println("hesap mak. kullandÃ½Ã°Ã½nÃ½z iÃ§in teÃ¾ekkÃ¼rler\n");
+		System.out.println("Ã§Ã½ktÃ½n");
 	
 		
 
 	}//main end
 
 
-	public static void menugöster(){
-		System.out.println("hoş geldiniz\n1-faktöriyel al\n2-üs al\n3-kök al\n4-mod al\n5-zar at\n6-çıkış-------");
+	public static void menugÃ¶ster(){
+		System.out.println("hoÃ¾ geldiniz\n1-faktÃ¶riyel al\n2-Ã¼s al\n3-kÃ¶k al\n4-mod al\n5-zar at\n6-Ã§Ã½kÃ½Ã¾-------");
 	}public static int Menudegeral(){
 		Scanner sc= new Scanner(System.in);
-		menugöster();
+		menugÃ¶ster();
 		int sayi1 = sc.nextInt();
 
 		while (sayi1<1 || sayi1>6){
-			menugöster();
-			System.out.println("\ngeçerli bi seçim yapınız");
+			menugÃ¶ster();
+			System.out.println("\ngeÃ§erli bi seÃ§im yapÃ½nÃ½z");
 			 sayi1 = sc.nextInt();
 		}
 		return sayi1;
